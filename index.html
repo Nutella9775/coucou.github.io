@@ -2,15 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Mes plats préférés</title>
+    <title>Mes plats préférés</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <style>
-img{
-    width: 500px;
+.image{
+            display: flex;
+            justify-content: center;
+        }
+.image img {
+            width: 30%;
+            height: auto;
 }
-
+.coucou{
+        font-size: large;
+}
     </style>
 </head>
 <body>
@@ -27,19 +33,19 @@ img{
         </ul>
     </nav>
     <main>
-        <div class="welcome-frame">
-            <p>Bienvenue sur mon site de cuisine où je partage mes plats préférés !</p>
+        <div class="coucou">
+            <p><b><i>Bienvenue sur mon site de cuisine où je partage mes plats préférés !</i> :)</b></p>
         </div>
-        <div class="centered-image">
+        <div class="image">
             <img src="macaron.jpg" alt="Mes plats préférés">
         </div>
-        <p>Découvrez mes choix culinaires. Au menu  : tomate mozzarella, magret de canard accompagnée de frittes et enfin des macarons avec une vidéo tuto ! </p>
+        <p>Découvrez mes choix culinaires. Au menu : tomate mozzarella, magret de canard et enfin des macarons avec une vidéo tuto ! </p>
         <p>Bonne visite et bonne dégustation :)</p>
     </main>
     <footer>
         <p>© Barbet Adrien | TD1, TP1.2</p>
-        <p>Sources: <a href ="https://www.marmiton.org/recettes/recette_macarons-inratables_72497.aspx">coucou</a></p>
-        <p id="datetime"></p>
+        <p>Source: <a href ="https://www.marmiton.org/recettes/recette_macarons-inratables_72497.aspx">Marmiton</a></p>
+        <p id="sysdate"></p>
     </footer>
 </body>
 </html>

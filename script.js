@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const dateTimeElement = document.getElementById("datetime");
+    const dateTimeElement = document.getElementById("sysdate");
     
     function updateDateTime() {
         const now = new Date();
